@@ -1,0 +1,60 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(149, 230, 255);
+    color: #000000;
+}
+
+span {
+    font-size: 24px;
+}
+
+#score {
+    margin-left: -1150px;
+    
+}
+
+#timer {
+    float: right;
+    margin-right: 35px;
+   
+}
+
+#sketch_to_be_drawn {
+    font-weight: bold;
+}
+
+h1
+{
+  background-color: white;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
